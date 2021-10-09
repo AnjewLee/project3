@@ -17,7 +17,7 @@ body{
 }
 
 
-.headercontainer{
+.header-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -90,7 +90,7 @@ a.button1{
     justify-content: space-around;
 }
 
-.restaurantcontainer{
+.restaurant-container{
     background: #f2f2f2;
     display: flex;
     flex-direction: column;
@@ -129,6 +129,11 @@ a.button1{
     border-top-right-radius: 16px;
 }
 
+.footer-container{
+    background-color: black;
+
+}
+
 .footer-heading{
     display: flex;
     flex-direction: column;
@@ -139,4 +144,9 @@ a.button1{
 
 .footer-heading h1{
     font-family: 'shrikhand';
+    color: white;
+}
+
+.footer-heading a{
+    color: white;
 }
