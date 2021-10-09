@@ -74,6 +74,14 @@ input{
     text-align: center;
 }
 
+a.button1{
+    padding: 16px 25px;
+    border-radius: 32px;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+}
+
 .steps{
     display: flex;
     flex-direction: column;
