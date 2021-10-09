@@ -6,6 +6,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: black;
+    font-size: 16px;
 }
 
 body{
@@ -89,8 +90,43 @@ a.button1{
     justify-content: space-around;
 }
 
-.restaurants{
+.restaurantcontainer{
     background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.restaurants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurantcard{
+    background: white;
+    width: 80%;
+    height: 215px;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 16px;
+    margin: 16px 0px;
+}
+
+.restaurantcard h2{
+    margin: 8px 0px 0px 8px;
+}
+
+.restaurantcard p{
+    margin: 0px 8px;
+}
+
+.restaurantimage{
+    height: 150px;
+    width: 100%;
+    min-width: 215px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
 .footer-heading{
