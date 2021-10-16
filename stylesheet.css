@@ -86,7 +86,14 @@ a.button1{
 .step-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    height: 425px;
+    justify-content: center;
+
+}
+
+.step-container h1{
+    font-size: 27px;
+    margin: 0px 16px 16px 16px;
 }
 
 .steps{
@@ -109,6 +116,7 @@ a.button1{
 
 .steps i{
     margin: 16px;
+    color: gray;
 }
 
 .stepcards{
@@ -127,13 +135,20 @@ a.button1{
     width: 33px;
     justify-content: center;
     align-items: center;
+    color: white;
 
 }
 .restaurant-container{
     background: #f2f2f2;
     display: flex;
     flex-direction: column;
+    height: 1050px;
+    justify-content: center;
+}
 
+.restaurant-container h1{
+    font-size: 27px;
+    margin: 0px 16px 16px 16px;
 }
 
 .restaurants{
@@ -148,7 +163,7 @@ a.button1{
     height: 215px;
     box-shadow: 1px 2px 5px grey;
     border-radius: 16px;
-    margin: 16px 0px;
+    margin: 8px 0px;
 }
 
 .restaurantcard{
@@ -176,7 +191,7 @@ a.button1{
 .far.fa-heart{
     margin-right: 16px;
     transition: ease-in 3s;
-    
+    text-decoration-color: #FF79DA;
 }
 
 .far.fa-heart:hover{
@@ -192,8 +207,12 @@ a.button1{
     border-top-right-radius: 16px;
 }
 
+footer{
+    background: black;
+}
+
 .footer-container{
-    background-color: black;
+    margin-left: 42px;
 
 }
 
@@ -214,3 +233,14 @@ a.button1{
     color: white;
 }
 
+.fas.fa-utensils{
+    font-size: 16px;
+    color: white;
+    margin-right: 19px;
+}
+
+.fas.fa-hands-helping{
+    font-size: 12px;
+    color: white;
+    margin-right: 16px;
+}
