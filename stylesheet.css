@@ -276,6 +276,11 @@ footer{
 
 /*menu1*/
 
+.mainimage{
+    display: flex;
+    height: 240px;
+}
+
 .menuimage{
     width: 100%;
     object-fit: cover;
