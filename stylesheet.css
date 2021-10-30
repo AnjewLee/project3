@@ -86,6 +86,7 @@ a.button1{
     color: #FFFFFF;
     background-image: linear-gradient(to bottom right, #FF79DA , #9356DC);
     text-align: center;
+    width: 215px;
 }
 
 .step-container{
@@ -241,7 +242,7 @@ footer{
 }
 
 .footer-container{
-    margin-left: 42px;
+    margin-left: 24px;
 
 }
 
@@ -316,7 +317,7 @@ footer{
 }
 
 .menulist h2{
-    margin-left: 16px;
+    margin: 32px 0px 8px 16px;
 }
 
 .foods{
@@ -348,4 +349,10 @@ footer{
     margin-right: 16px;
     font-size: 13px;
     font-weight: bold;
+}
+
+.orderbutton{
+    display: flex;
+    padding: 24px 0 32px 0;
+    justify-content: center;
 }
