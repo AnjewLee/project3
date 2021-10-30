@@ -120,9 +120,18 @@ a.button1{
     align-items: center;
 }
 
+.steps a:hover{
+    background-color:#F5EDFF;
+}
+
 .steps i{
     margin: 16px;
     color: gray;
+}
+
+.stepcards:hover i{
+    color: #9356DC;
+
 }
 
 .stepcards{
@@ -343,6 +352,7 @@ footer{
 
 .menutext p{
     font-size: 13px;
+    margin-top: 4px;
 }
 
 .price{
