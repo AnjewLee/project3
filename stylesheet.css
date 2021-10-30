@@ -220,7 +220,7 @@ a.button1{
 
 footer{
     background: #353535;
-    height: 280px;
+    height: 230px;
 }
 
 .footer-container{
@@ -232,7 +232,6 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 200px;
 }
 
 .footer-heading h1{
