@@ -32,7 +32,7 @@ body{
     justify-content: center;
     padding: 6px 0px;
     box-shadow: 0px 0px 8px grey;
-    z-index: 1;
+    z-index: 3;
     align-items: center;
 }
 
@@ -46,6 +46,7 @@ body{
     padding: 16px 0px;
     background-color: lightgrey;
     width: 100%;
+    z-index: 2;
 }
 
 .fas.fa-map-marker-alt{
@@ -86,6 +87,7 @@ a.button1{
     background-image: linear-gradient(to bottom right, #FF79DA , #9356DC);
     text-align: center;
     width: 215px;
+    box-shadow: 0px 3px 8px grey;
 }
 
 .step-container{
@@ -504,6 +506,9 @@ footer{
         font-size: 20px;
     }
 
-    
+    .explore{
+        z-index: 1;
+        box-shadow: 0px -2px 8px grey;
+    }
 
 }
