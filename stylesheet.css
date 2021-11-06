@@ -17,6 +17,60 @@ body{
     max-width: 1100px;
 }
 
+.loadercontainer{
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white
+}
+
+.loadercontainer{
+    animation: fadeout 3s ;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeout {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+}
+
+.loader{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.dot1{
+    background-color: #9356DC;
+    animation: jump 0.6s 0.1s linear infinite;
+}
+
+.dot2{
+    background-color: #FF79DA ;
+    animation: jump 0.6s 0.2s linear infinite;
+}
+
+.dot3{
+    background-color: #99E2D0;
+    animation: jump 0.6s 0.3s linear infinite;
+}
+
+@keyframes jump {
+    50%{
+        transform: translate(0,15px);
+    }
+}
 
 .header-container{
     display: flex;
@@ -80,7 +134,7 @@ input{
     text-align: center;
 }
 
-a.button1{
+.button1{
     padding: 16px 25px;
     border-radius: 32px;
     color: #FFFFFF;
@@ -88,7 +142,15 @@ a.button1{
     text-align: center;
     width: 215px;
     box-shadow: 0px 3px 8px grey;
+
 }
+
+.explorebutton :hover{
+	filter: brightness(70%);
+
+}
+
+
 
 .step-container{
     display: flex;
@@ -346,7 +408,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
 
 .menuitem{
     display: flex;
@@ -357,6 +421,40 @@ footer{
     height: 60px;
     align-items: center;
     justify-content: space-between;
+}
+.item1{
+    animation: foodload 1s ease-in 300ms;
+    transform: translateY(-8px);
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.item2{
+    animation: foodload 1s ease-in 600ms;
+    transform: translateY(-8px);
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.item3{
+    animation: foodload 1s ease-in 900ms;
+    transform: translateY(-8px);
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes foodload {
+    0%{
+        transform: translateY(-8px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
 }
 
 .menutext{
@@ -378,6 +476,10 @@ footer{
     display: flex;
     padding: 24px 0 32px 0;
     justify-content: center;
+}
+
+.orderbutton :hover{
+	filter: brightness(70%);
 }
 
 
