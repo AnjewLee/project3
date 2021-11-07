@@ -259,11 +259,11 @@ input{
 }
 
 .restaurantcard h2{
-    margin: 8px 0px 0px 8px;
+    margin: 8px 0px 0px 12px;
 }
 
 .restaurantcard p{
-    margin: 0px 8px;
+    margin: 0px 12px;
 }
 
 .iconheart{
@@ -416,7 +416,7 @@ footer{
     width: 90%;
     border-radius: 16px;
     margin: 8px 0px 8px 0px;
-    height: 60px;
+    height: 65px;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -465,16 +465,18 @@ footer{
 
 .menutext{
     margin-left: 8px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 50%;
+    width: 60%;
 }
 
 .menutext p{
     font-size: 13px;
     margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
 
 .price{
     margin: 0px 8px;
