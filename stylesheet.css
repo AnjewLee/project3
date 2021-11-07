@@ -147,10 +147,8 @@ input{
 
 .explorebutton :hover{
 	filter: brightness(70%);
-
+    box-shadow: 0 3px 4px 2px #f2f2f2;
 }
-
-
 
 .step-container{
     display: flex;
@@ -424,28 +422,28 @@ footer{
     position: relative;
 }
 .item1{
-    animation: foodload 1s ease-in 300ms;
+    animation: foodload 0.5s ease-in 300ms;
     transform: translateY(-8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .item2{
-    animation: foodload 1s ease-in 600ms;
+    animation: foodload 0.5s ease-in 600ms;
     transform: translateY(-8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .item3{
-    animation: foodload 1s ease-in 900ms;
+    animation: foodload 0.5s ease-in 900ms;
     transform: translateY(-8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .item4{
-    animation: foodload 1s ease-in 1200ms;
+    animation: foodload 0.5s ease-in 1200ms;
     transform: translateY(-8px);
     opacity: 0;
     animation-fill-mode: forwards;
@@ -470,6 +468,7 @@ footer{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: 50%;
 }
 
 .menutext p{
@@ -491,8 +490,6 @@ footer{
     align-items: center;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    position: absolute;
-    right: 0;
     justify-content: center;
     
 }
@@ -509,6 +506,7 @@ footer{
 
 .orderbutton :hover{
 	filter: brightness(70%);
+    box-shadow: 0 3px 4px 2px #f2f2f2;
 }
 
 
