@@ -545,6 +545,7 @@ footer{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;
+    margin-left: -8px;
 }
 
 .orderbutton{
@@ -583,7 +584,7 @@ footer{
     .restaurant-container h1{
         text-align: center;
         font-family: 'shrikhand';
-        font-size: 40px;
+        font-size: 49px;
     }
 
     .step-container h1{
