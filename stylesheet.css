@@ -496,22 +496,52 @@ footer{
     margin: 0px 8px;
     font-size: 13px;
     font-weight: bold;
+    transition: .5s ease;
+    
+
 }
 
-.check{
-    background: #99E2D0;
-    height: 100%;
+.checkcontainer{
+    position: relative;
     width: 20%;
+    height: 100%;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+
+
+.checkoverlay{
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #99E2D0;
+    overflow: hidden;
+    height: 100%;
+    width: 0;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    justify-content: center;
+    transition: .5s ease;
     
 }
 
+.menuitem:hover .checkoverlay{
+    width: 100%;
+    left: 0;
+}
+
+
+
 .fas.fa-check-circle{
     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
 .orderbutton{
