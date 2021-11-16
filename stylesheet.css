@@ -497,6 +497,8 @@ footer{
     font-size: 13px;
     font-weight: bold;
     transition: .5s ease;
+    position: absolute;
+    left: -40px;
     
 
 }
@@ -517,16 +519,17 @@ footer{
     left: 100%;
     right: 0;
     background-color: #99E2D0;
-    overflow: hidden;
     height: 100%;
     width: 0;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     transition: .5s ease;
+    display: flex;
+    align-items: center;
     
 }
 
-.menuitem:hover .checkoverlay{
+.menuitem:hover .checkoverlay {
     width: 100%;
     left: 0;
 }
