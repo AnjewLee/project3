@@ -564,7 +564,7 @@ footer{
 
 
 
-@media all and (min-width: 450px) and (max-width: 1015px){
+@media all and (min-width: 544px) and (max-width: 1015px){
 
     .explore{
         width: 100%;
@@ -634,6 +634,7 @@ footer{
 
     .title{
         justify-content: center;
+        margin: 0px;
     }
 
 
