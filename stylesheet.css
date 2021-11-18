@@ -426,6 +426,9 @@ footer{
     
 }
 
+.menuitem :hover{
+    transition:all 1s ease-in-out;
+}
 
 .menuitem{
     display: flex;
@@ -532,6 +535,7 @@ footer{
     transition: .5s ease;
     display: flex;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -553,6 +557,26 @@ footer{
     white-space: nowrap;
     
 }
+
+.checkspin{
+    -webkit-animation: spinning 1s ease 1s infinite normal ;
+    animation: spinning 1s ease 1s infinite normal ;
+
+}
+
+.checkspin:hover{ 
+    
+}
+
+@keyframes spinning {
+    from {
+      transform: rotate(0deg);
+      
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 
 
