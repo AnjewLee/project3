@@ -440,28 +440,28 @@ footer{
 }
 .item1{
     animation: foodload 0.5s ease-in 300ms;
-    transform: translateY(-8px);
+    transform: translateY(8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .item2{
     animation: foodload 0.5s ease-in 600ms;
-    transform: translateY(-8px);
+    transform: translateY(8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .item3{
     animation: foodload 0.5s ease-in 900ms;
-    transform: translateY(-8px);
+    transform: translateY(8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .item4{
     animation: foodload 0.5s ease-in 1200ms;
-    transform: translateY(-8px);
+    transform: translateY(8px);
     opacity: 0;
     animation-fill-mode: forwards;
 }
@@ -469,7 +469,7 @@ footer{
 
 @keyframes foodload {
     0%{
-        transform: translateY(-8px);
+        transform: translateY(8px);
         opacity: 0;
     }
 
@@ -549,7 +549,10 @@ footer{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;
+    
 }
+
+
 
 .orderbutton{
     display: flex;
