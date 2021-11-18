@@ -141,13 +141,15 @@ input{
     background-image: linear-gradient(to bottom right, #FF79DA , #9356DC);
     text-align: center;
     width: 215px;
-    box-shadow: 0px 3px 8px grey;
-
+    box-shadow: 0px 3px 8px rgb(175, 175, 175);
+    filter: brightness(97%);
 }
 
+
 .explorebutton :hover{
-	filter: brightness(70%);
-    box-shadow: 0 3px 4px 2px #f2f2f2;
+    box-shadow: 0px 3px 7px rgb(119, 118, 118);
+    filter: brightness(100%);
+   
 }
 
 .step-container{
@@ -556,8 +558,8 @@ footer{
 }
 
 .orderbutton :hover{
-	filter: brightness(70%);
-    box-shadow: 0 3px 4px 2px #f2f2f2;
+    box-shadow: 0px 3px 7px rgb(119, 118, 118);
+    filter: brightness(100%);
 }
 
 
