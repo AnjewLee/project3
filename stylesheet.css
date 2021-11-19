@@ -559,9 +559,10 @@ footer{
 }
 
 .checkspin{
-    -webkit-animation: spinning 1s ease 1s infinite normal ;
-    animation: spinning 1s ease 1s infinite normal ;
-
+    -webkit-animation: spinning 1s ease-in 1s infinite normal ;
+    animation: spinning 1s ease-in 1s infinite normal ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .checkspin:hover{ 
