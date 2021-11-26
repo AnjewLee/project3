@@ -426,9 +426,7 @@ footer{
     
 }
 
-.menuitem :hover{
-    transition:all 1s ease-in-out;
-}
+
 
 .menuitem{
     display: flex;
@@ -539,10 +537,16 @@ footer{
     
 }
 
-.menuitem:hover .checkoverlay {
+.menuitem:hover .checkoverlay{
     width: 65%;
     left: 34px;
+    transition:all 1s ease-in-out;
 }
+
+.menuitem:hover .checkspin{
+    animation: 1s linear 0s 1 normal none running spinning;
+}
+
 
 
 
@@ -558,16 +562,7 @@ footer{
     
 }
 
-.checkspin{
-    -webkit-animation: spinning 1s ease-in 1s infinite normal ;
-    animation: spinning 1s ease-in 1s infinite normal ;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
 
-.checkspin:hover{ 
-    
-}
 
 @keyframes spinning {
     from {
