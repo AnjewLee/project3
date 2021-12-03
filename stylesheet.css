@@ -160,7 +160,7 @@ input{
 
 }
 
-.step-container h1{
+.step-container h2{
     font-size: 27px;
     margin: 0px 16px 16px 16px;
 }
@@ -225,7 +225,7 @@ input{
     justify-content: center;
 }
 
-.restaurant-container h1{
+.restaurant-container h2{
     font-size: 27px;
     margin: 0px 16px 16px 16px;
 }
@@ -260,7 +260,7 @@ input{
     justify-content: space-between;
 }
 
-.restaurantcard h2{
+.restaurantcard h3{
     margin: 8px 0px 0px 12px;
 }
 
@@ -616,13 +616,13 @@ footer{
         min-width: 190px;
     }
 
-    .restaurant-container h1{
+    .restaurant-container h2{
         text-align: center;
         font-family: 'shrikhand';
         font-size: 49px;
     }
 
-    .step-container h1{
+    .step-container h2{
         text-align: center;
     }
 
@@ -688,7 +688,7 @@ footer{
         width: 50%;
     }
 
-    .step-container h1{
+    .step-container h2{
         text-align: center;
         margin: 16px;
     }
@@ -698,7 +698,7 @@ footer{
         width: 100%;
     }
 
-    .restaurant-container h1{
+    .restaurant-container h2{
         text-align: center;
         margin: 16px;
         font-family: 'shrikhand';
