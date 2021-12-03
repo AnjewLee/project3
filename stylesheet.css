@@ -391,7 +391,7 @@ footer{
     padding-top: 32px;
 }
 
-.menucontainer h1{
+.menucontainer h2{
     font-family: 'shrikhand';
     font-size: 26px;
 }
@@ -401,7 +401,7 @@ footer{
     flex-direction: column;
 }
 
-.menulist h2{
+.menulist h3{
     margin: 32px 0px 4px 16px;
     font-weight: lighter;
 }
@@ -630,7 +630,7 @@ footer{
         max-width: 250px;
     }
 
-    .menucontainer h1{
+    .menucontainer h2{
         font-size: 40px;
     }
 
@@ -647,7 +647,7 @@ footer{
         min-width: 340px;
     }
 
-    .menulist h2{
+    .menulist h3{
         text-align: center;
         font-size: 20px;
     }
@@ -730,7 +730,7 @@ footer{
         justify-content: space-around;
     }
 
-    .menucontainer h1{
+    .menucontainer h2{
         font-size: 40px;
     }
 
@@ -738,7 +738,7 @@ footer{
         width: 30%;
     }
 
-    .menulist h2{
+    .menulist h3{
         font-size: 20px;
     }
 
