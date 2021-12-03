@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>ohmyfood</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="stylesheet.css" type="text/css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <div class="loadercontainer">
-            <div class="loader dot1"></div>
-            <div class="loader dot2"></div>
-            <div class="loader dot3"></div>
+<head>
+    <title>ohmyfood</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loadercontainer">
+        <div class="loader dot1"></div>
+        <div class="loader dot2"></div>
+        <div class="loader dot3"></div>
+    </div>
+
+
+    <header>
+        <div class="header-container">
+            <div id="logo">
+                <a href="#"><img id="headerlogo" src="images/ohmyfoodlogo.png" alt="ohmyfood" title="ohmyfood"></a>
+            </div>
+            <div id="search">
+                <a href="#">
+                    <div class="fas fa-map-marker-alt"></div>
+                </a>
+                <label>
+                    <input type="text" placeholder="Paris, Belleville" />
+                </label>
+            </div>
         </div>
+    </header>
 
-
-        <header>
-            <div class="header-container">
-                <div id="logo">
-                    <a href="#"><img id="headerlogo" src="images/ohmyfoodlogo.png" alt="ohmyfood" title="ohmyfood"></a>
-                </div>
-                <div id="search">
-                    <a href="#">
-                        <div class="fas fa-map-marker-alt"></div>
-                    </a>
-                    <label>
-                      <input type="text" placeholder="Paris, Belleville" /> 
-                    </label>
+    <section>
+        <div class="hero-container">
+            <div class="explore">
+                <h1>Book the menu you like</h1>
+                <p>Discover top-of-the-art restaurants we picked for you</p>
+                <div class="buttoncontainer">
+                    <div class="explorebutton"> <a href="#" class="button1">Explore our restaurants</a></div>
                 </div>
             </div>
-        </header>
-        
-        <section>
-            <div class="hero-container">
-                <div class="explore">
-                    <h1>Book the menu you like</h1>
-                    <p>Discover top-of-the-art restaurants we picked for you</p>
-                   <div class="buttoncontainer"><div class="explorebutton"> <a href="#" class="button1">Explore our restaurants</a></div></div>
-                </div>
 
 
-                <div class="step-container">
-                    <h1>How it works</h1>
-                
+            <div class="step-container">
+                <h1>How it works</h1>
+
                 <div class="steps">
-                
+
                     <a href="#">
                         <div class="stepcards">
                             <div class="stepnumber">1</div>
                             <i class="fas fa-mobile-alt"></i>
                             <h2>Choose a restaurant</h2>
                         </div>
-                    
+
                     </a>
 
                     <a href="#">
@@ -78,107 +81,108 @@
                         </div>
 
                     </a>
-                
-                </div> 
+
                 </div>
-           
-                <div class="restaurant-container">
-                    <h1>Restaurants</h1>
-                    
+            </div>
+
+            <div class="restaurant-container">
+                <h1>Restaurants</h1>
+
                 <div class="restaurants">
-                
-                    <a href="menu1.html"> 
-                    <div class="restaurantcard">
-                    <div class="new">New</div>
-                    <img class="restaurantimage" src="images/thefullpalette.jpg" alt="The Full Palette">
-                    <div class="restaurantcaption">
-                    <div class="restauranttext">
-                    <h2>The Full Palette</h2>
-                    <p>New York</p>
-                    </div>
-                        <div class="iconheart">
-                        <i class="far fa-heart"></i>
+
+                    <a href="menu1.html">
+                        <div class="restaurantcard">
+                            <div class="new">New</div>
+                            <img class="restaurantimage" src="images/thefullpalette.jpg" alt="The Full Palette">
+                            <div class="restaurantcaption">
+                                <div class="restauranttext">
+                                    <h2>The Full Palette</h2>
+                                    <p>New York</p>
+                                </div>
+                                <div class="iconheart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
                     </a>
-                    
-                    
 
-                    <a href="menu2.html">              
-                    <div class="restaurantcard">
-                    <div class="new">New</div>
-                    <img class="restaurantimage" src="images/theenchantedplate.jpg" alt="The Enchanted Plate">
-                    <div class="restaurantcaption">
-                    <div class="restauranttext">
-                    <h2>The Enchanted Plate</h2>
-                    <p>New York</p>
-                    </div>
-                        <div class="iconheart">
-                        <i class="far fa-heart"></i>
+
+
+                    <a href="menu2.html">
+                        <div class="restaurantcard">
+                            <div class="new">New</div>
+                            <img class="restaurantimage" src="images/theenchantedplate.jpg" alt="The Enchanted Plate">
+                            <div class="restaurantcaption">
+                                <div class="restauranttext">
+                                    <h2>The Enchanted Plate</h2>
+                                    <p>New York</p>
+                                </div>
+                                <div class="iconheart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                    </a>  
+                    </a>
 
-                    
-                    
+
+
                     <a href="menu3.html">
-                    <div class="restaurantcard">
-                    <img class="restaurantimage" src="images/bastille.jpg" alt="Bastille">
-                    <div class="restaurantcaption">
-                    <div class="restauranttext">
-                    <h2>Bastille</h2>
-                    <p>New York</p>
-                    </div>
-                        <div class="iconheart">
-                        <i class="far fa-heart"></i>
+                        <div class="restaurantcard">
+                            <img class="restaurantimage" src="images/bastille.jpg" alt="Bastille">
+                            <div class="restaurantcaption">
+                                <div class="restauranttext">
+                                    <h2>Bastille</h2>
+                                    <p>New York</p>
+                                </div>
+                                <div class="iconheart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                    </a>  
-                    
-                    <a href="menu4.html">
-                    <div class="restaurantcard">
-                    <img class="restaurantimage" src="images/legourmand.jpg" alt="Le Gourmand">
-                    <div class="restaurantcaption">
-                    <div class="restauranttext">
-                    <h2>Le Gourmand</h2> 
-                    <p>New York</p>
-                    </div>
-                        <div class="iconheart">
-                        <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    </div>
-                    </a>  
+                    </a>
 
-                </div> 
-                
-                </div>   
+                    <a href="menu4.html">
+                        <div class="restaurantcard">
+                            <img class="restaurantimage" src="images/legourmand.jpg" alt="Le Gourmand">
+                            <div class="restaurantcaption">
+                                <div class="restauranttext">
+                                    <h2>Le Gourmand</h2>
+                                    <p>New York</p>
+                                </div>
+                                <div class="iconheart">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
 
             </div>
 
-            <footer>
-                <div class="footer-container">
-                    
-                    <div class="footer-heading">
-                          <h1>ohmyfood</h1>
-                        <div class="footerall">
-                          <a href="#"><i class="fas fa-utensils"></i>Suggest a restaurant</a>
-                          <a href="#"><i class="fas fa-hands-helping"></i>Become a partner</a>
-                          <a href="#">Legal</a>
-                          <a href="mailto:ohmyfood@ohmyfood.com">Contact</a>
-                        </div>
-                    </div>
+        </div>
 
-                </div>
 
-            </footer>
 
-        </section>
+    </section>
 
-    </body>
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-heading">
+                <h1>ohmyfood</h1>
+                <nav class="footerall">
+                    <a href="#"><i class="fas fa-utensils"></i>Suggest a restaurant</a>
+                    <a href="#"><i class="fas fa-hands-helping"></i>Become a partner</a>
+                    <a href="#">Legal</a>
+                    <a href="mailto:ohmyfood@ohmyfood.com">Contact</a>
+                </nav>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
 
 </html>
-
